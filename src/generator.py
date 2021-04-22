@@ -11,6 +11,3 @@ def generator_model():
     model.add(decoder_model(480))
     return model
 
-
-genr = generator_model()
-genr.summary()
