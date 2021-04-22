@@ -35,6 +35,3 @@ def decoder_model(latent_vector=160):
     model = Model(inputs=inputs, outputs=decoder, name='Decoder')
     return model
 
-
-decd = decoder_model()
-decd.summary()
