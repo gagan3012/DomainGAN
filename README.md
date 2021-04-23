@@ -15,3 +15,10 @@
       primaryClass={cs.LG}
 }
  ```
+ 
+ # Requirements
+ - tensorflow
+ - pandas
+ - numpy
+ - sklearn
+ - keras
