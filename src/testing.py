@@ -18,3 +18,4 @@ for x in generated_domains:
 
 print("results")
 readableg = __to_readable_domain(np.array(sampled), inv_map=data_dict['inv_map'])
+print(readableg[:10])
