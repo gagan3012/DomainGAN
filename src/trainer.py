@@ -1,3 +1,4 @@
+        gan_history = gan.train_on_batch(noise, misleading_targets, reset_metrics=True, return_dict=True)
             print({index: gan_history}, {index: disc_dict})
 print(gan.summary())
 print(genr.summary())
