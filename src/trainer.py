@@ -1,3 +1,4 @@
+
 for epoch in range(EPOCHS):
     print("Epoch is %s" % epoch)
     print("Number of batches %s" % int(train.shape[0] / BATCH_SIZE))
