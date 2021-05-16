@@ -1,4 +1,5 @@
             labels = labels_fake
+        disc_history1 = disc.train_on_batch(normal_domains, labels_real, reset_metrics=True, return_dict=True)
         disc_history2 = disc.train_on_batch(generated_domains, labels_fake, reset_metrics=True, return_dict=True)
         disc_history = np.mean([disc_history1['loss'], disc_history2['loss']])
         disc_acc = np.mean([disc_history1['accuracy'], disc_history2['accuracy']])
