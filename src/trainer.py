@@ -1,3 +1,4 @@
+test = data_dict['X_test']
 batch = (int(train.shape[0] / BATCH_SIZE) / 10)
 EPOCHS = 5
 
