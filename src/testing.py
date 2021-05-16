@@ -10,3 +10,4 @@ readablen = __to_readable_domain(np.array(sampled), inv_map=data_dict['inv_map']
 print(readablen[:10])
 
 sampled = []
+for x in generated_domains:
