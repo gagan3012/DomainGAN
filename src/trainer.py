@@ -1,3 +1,5 @@
+
+        if index % 2 == 0:
             training_domains = normal_domains
             labels = labels_real
         else:
