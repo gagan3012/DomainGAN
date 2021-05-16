@@ -1,3 +1,5 @@
+            training_domains = normal_domains
+            labels = labels_real
         else:
             training_domains = generated_domains
             labels = labels_fake
