@@ -1,3 +1,4 @@
+BATCH_SIZE = 1000
 train = data_dict['X_train']
 test = data_dict['X_test']
 batch = (int(train.shape[0] / BATCH_SIZE) / 10)
