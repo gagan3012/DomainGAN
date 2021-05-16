@@ -11,3 +11,4 @@ print(readablen[:10])
 
 sampled = []
 for x in generated_domains:
+    word = []
