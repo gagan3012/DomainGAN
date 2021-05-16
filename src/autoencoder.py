@@ -1,4 +1,7 @@
+from sklearn.model_selection import train_test_split
 
+from src.decoder import decoder_model
+from src.encoder import encoder_model
 
 EPOCH = 5
 n=20
@@ -37,6 +40,7 @@ for x in predictions:
     for y in x:
         word.append(__np_sample(y))
     sampled.append(word)
+
 print("results")
 readable = __to_readable_domain(np.array(sampled), inv_map=data_dict['inv_map'])
 dfa= df['url'].tolist()
