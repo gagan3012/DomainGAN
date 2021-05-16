@@ -1,3 +1,4 @@
+        disc_dict = {'loss': disc_history, 'accuracy': disc_acc}
         disc.trainable = False
 
         noise = np.random.normal(0, 1, size=(BATCH_SIZE, 20))  # random latent vectors.
