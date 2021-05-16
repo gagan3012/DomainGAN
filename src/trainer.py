@@ -1,3 +1,4 @@
+EPOCHS = 5
 
 for epoch in range(EPOCHS):
     print("Epoch is %s" % epoch)
