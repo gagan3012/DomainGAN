@@ -1,5 +1,7 @@
             labels = labels_fake
 
+        # training discriminator on both Normal and generated domains
+
         disc.trainable = True
         # disc_history = disc.train_on_batch(training_domains, labels,reset_metrics=True,return_dict=True)
         disc_history1 = disc.train_on_batch(normal_domains, labels_real, reset_metrics=True, return_dict=True)
