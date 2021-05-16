@@ -1,3 +1,4 @@
+batch = (int(train.shape[0] / BATCH_SIZE) / 10)
 EPOCHS = 5
 
 for epoch in range(EPOCHS):
