@@ -1,3 +1,4 @@
+        disc_acc = np.mean([disc_history1['accuracy'], disc_history2['accuracy']])
         disc_dict = {'loss': disc_history, 'accuracy': disc_acc}
         disc.trainable = False
 
