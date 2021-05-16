@@ -1,3 +1,4 @@
+    print("Number of batches %s" % int(train.shape[0] / BATCH_SIZE))
     print("Batch size: %s" % BATCH_SIZE)
 
     for index in range(int(train.shape[0] / BATCH_SIZE)):
