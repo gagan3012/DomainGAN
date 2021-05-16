@@ -1,3 +1,4 @@
+    for index in range(int(train.shape[0] / BATCH_SIZE)):
         noise = np.random.normal(0, 1, size=(BATCH_SIZE, 20))
         normal_domains = train[(index * BATCH_SIZE):(index + 1) * BATCH_SIZE]
 
