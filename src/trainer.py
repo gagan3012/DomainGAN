@@ -1,3 +1,5 @@
+        else:
+            training_domains = generated_domains
             labels = labels_fake
 
         # training discriminator on both Normal and generated domains
