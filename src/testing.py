@@ -15,3 +15,4 @@ for x in generated_domains:
     for y in x:
         word.append(__np_sample(y))
     sampled.append(word)
+
