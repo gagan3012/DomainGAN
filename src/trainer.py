@@ -1,3 +1,5 @@
+        labels_real = np.random.normal(0, 1, size=labels_size)
+        labels_fake = np.zeros(shape=labels_size)
 
         if index % 2 == 0:
             training_domains = normal_domains
