@@ -1,3 +1,5 @@
+        normal_domains = train[(index * BATCH_SIZE):(index + 1) * BATCH_SIZE]
+
         labels_size = (BATCH_SIZE, 1)
 
         labels_real = np.random.normal(0, 1, size=labels_size)
