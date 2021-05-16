@@ -1,3 +1,4 @@
+        disc.trainable = False
 
         noise = np.random.normal(0, 1, size=(BATCH_SIZE, 20))  # random latent vectors.
         misleading_targets = np.random.normal(0, 1, size=labels_size)
